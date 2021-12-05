@@ -38,12 +38,12 @@
    
     <div class="container">
       <div class="heading">
-          <h1 style="margin-left: 10%;">Add New Book</h1>
+          <h1 style="margin-left: 10%;">Add New Author</h1>
       </div>
       <form action="/index" onsubmit="return checkInput()" class="form" id="form">
           <div class="form-control" >
               <label >Name of Author</label> 
-              <input type="text" placeholder="Enter Book name" id="name" name="Uname" >
+              <input type="text" placeholder="Enter Author name" id="name" name="Uname" >
               <i class="fa fa-check-square"></i>
              <i class="fa fa-exclamation-triangle"></i>
               <small>Error message</small>
@@ -51,8 +51,8 @@
           
  
           <div class="form-control" >
-             <label >Book Names</label> 
-             <input type="text" placeholder="Enter authors name" id="email" >
+             <label >Famous Work</label> 
+             <input type="text" placeholder="Enter famous books" id="email" >
              <i class="fa fa-check-square"></i>
              <i class="fa fa-exclamation-triangle"></i>
              <small>Error message</small>
@@ -61,21 +61,20 @@
  
          <div class="form-control">
              <label >About</label> 
-             <input type="text" placeholder="Enter genre of book" id="username" >
+             <input type="text" placeholder="Something about author" id="username" >
              <i class="fa fa-check-square"></i>
              <i class="fa fa-exclamation-triangle"></i>
              <small>Error message</small>
          </div>
 
-         <!-- <div class="form-control">
-          <label >Published Date</label> 
-          <input type="text" placeholder="" id="date" >
-          <i class="fa fa-check-square"></i>
-          <i class="fa fa-exclamation-triangle"></i>
+         <div class="form-control">
+          <label >Add Picture</label> 
+          <!-- <input type="image" accept="image/*" placeholder="" id="img" > -->
+          <input class="form-control" type="file" id="authorpic" name="authorpic" placeholder="author Pic" accept="image/*" required/>
+          <!-- <i class="fa fa-check-square"></i>
+          <i class="fa fa-exclamation-triangle"></i> -->
           <small>Error message</small>
-         </div> -->
-         
-         
+         </div>
          
          
          <button class="button" type="submit">Submit</button>

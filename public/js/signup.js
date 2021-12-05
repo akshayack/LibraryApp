@@ -6,13 +6,7 @@ const username=document.getElementById('username');
 const pswd=document.getElementById('pswd');
 const cpswd=document.getElementById('cpswd');
 
-// form.addEventListener('submit', (e)=>{
-//     e.preventDefault();
 
-//     checkInputs();
-//     var validation = true;
-
-// });
 
 function checkInputs(){
     //get th evalues from the inputs

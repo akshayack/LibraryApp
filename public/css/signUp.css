@@ -119,9 +119,6 @@ marquee{
 
 body{  
     min-height: 100vh;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     background: url('/public/images/main_bg.png');
     background-size: cover;
     background-repeat: no-repeat;
