@@ -1,6 +1,8 @@
 const express = require("express");
 const app = new express();
 
+app.set('port', process.env.PORT || 4000);
+
 const nav = [
   { link: "/", name: "Home" },
   { link: "/books", name: "Books" },
@@ -37,4 +39,4 @@ app.get("/", function (req, res) {
   });
 });
 
-app.listen(4000);
+app.listen(app.get('port'));
